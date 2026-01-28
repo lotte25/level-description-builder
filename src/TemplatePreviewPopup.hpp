@@ -4,7 +4,7 @@ using namespace cocos2d;
 
 class TemplatePreviewPopup : public geode::Popup<std::string const&> {
 protected:
-    std::string m_text;
+    std::string m_template;
 
     bool setup(std::string const& text) override;
     void onCopy(CCObject*);

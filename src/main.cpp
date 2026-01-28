@@ -1,6 +1,6 @@
 #include <Geode/Geode.hpp>
 #include <Geode/modify/PauseLayer.hpp>
-#include "ui/previewPopup.hpp"
+#include "TemplatePreviewPopup.hpp"
 #include "utils.hpp"
 
 using namespace geode::prelude;
