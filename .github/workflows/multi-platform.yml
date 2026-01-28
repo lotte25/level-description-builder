@@ -39,8 +39,15 @@ jobs:
       - name: Build the mod
         uses: geode-sdk/build-geode-mod@main
         with:
-          combine: true
-          target: ${{ matrix.config.target }}
+            sdk: "v4.10.0"
+            configure-args: "-DSKIP_BUILDING_CODEGEN=OFF"
+            build-config: RelWithDebInfo
+            export-symbols: true
+            export-pdb: true
+            bindings: geode-sdk/bindings
+            bindings-ref: 23d6ae0
+            combine: true
+            target: ${{ matrix.config.target }}
 
   package:
     name: Package builds
