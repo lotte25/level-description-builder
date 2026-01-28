@@ -13,7 +13,7 @@ namespace constants {
         "Clicks: {CLICKS}\n"
         "Downloads: {DOWNLOADS}\n"
         "Likes: {LIKES}\n"
-        "Difficulty: {DIFFICULTY}"
+        "Difficulty: {DIFFICULTY}\n"
         "Length: {LENGTH}\n"
         "Song: {SONGNAME} ({SONGID})\n";
     
